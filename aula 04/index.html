@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,5 +12,35 @@
     <h1><b>Itálico/Ênfase</b></h1>
     <P><i>Nesta frase entrar com uma palavra em italico usando a tag i ( não semantica) </i></P>
     <p><em>Nesta frase entrar com uma palavra em italico usando a tag em (semantica)</em></p>
+    <p>inserindo um longo codigo javascript </p>
+    <p>
+        <pre>
+            <code>
+                function equacaoSegundoGrau(a, b, c) {
+    const delta = b * b - 4 * a * c;
+
+    if (a === 0) {
+        console.log("Não é uma equação do segundo grau.");
+        return;
+    }
+
+    if (delta < 0) {
+        console.log("A equação não possui raízes reais.");
+        return;
+    }
+
+    const x1 = (-b + Math.sqrt(delta)) / (2 * a);
+    const x2 = (-b - Math.sqrt(delta)) / (2 * a);
+
+    console.log("Delta:", delta);
+    console.log("x1 =", x1);
+    console.log("x2 =", x2);
+}
+
+// Exemplo de uso
+equacaoSegundoGrau(1, -3, 2);
+            </code>
+        </pre>
+    </p>
 </body>
 </html>
